@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+.suggestionsContainer {
+    border: solid 1px lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formButton {
+    align-self: flex-end;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.navbarLink {
+    text-decoration: none;
+    color: inherit !important;
+}
+
+.suggestionForms {
+    max-width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.suggestionForm {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.submitStrategyButton {
+    width: 20%;
+}
+
+.suggestionResults {
+    align-items: flex-start;
+    max-width: 800px;
+}
+
+.loginButton {
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.lineGraphHistory {
+    margin-top: 30px;
+}
+
+.amountErrorMessage {
+    color: red;
+}
